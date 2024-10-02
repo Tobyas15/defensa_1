@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.menu-nav{
+    background-color: rgb(28, 53, 165);
+    height: 100px;
+    margin: 10px
+}
+
+.slider-container p{
+    margin: auto;
+}
+.text-mosaic{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100vw;
+}
+.text-content{
+    border-radius: 9px;
+    margin: 2px 0px;
+    background-color: #d1560e;
+    width: 50%;
+    color: #fff;
+    
+}
+.mosaic{
+    
+    width: 50%;
+    display: flex;
+    flex-flow: row wrap;
+    
+    align-items: center;
+    gap: 10px;
+}
+
+.cards{
+    display: flex;
+    min-width: 100vw;
+}
+.card{
+    min-width: 100px;
+    height: 100px;
+    background-color: blue;
+    flex-grow: 1;
+    margin: 10px 10px;
+    border-radius: 9px;
+    color: #fff;
+}
+.contact-photo{
+    display: flex;
+    min-width: 100vw;
+    height: 100px;
+    gap: 5px;
+
+}
+
+.footer{
+    
+    margin: 10px;
+    background-color: rgb(119, 82, 145);
+    height: 110px;
+    border-radius: 9px;
+    display: flex;
+  
+   
+}
+
+.p{
+    
+    background-color: yellow;
+    min-width: 100%;
+    height: 120px;
+    margin: 10px;
+}
+
+.mosaico{
+    margin: 10px;
+    height: 100px;
+    background-color: rgb(238, 20, 20);
+    width: 100%; 
+    gap: 10px;
+   
+}
+
+
+

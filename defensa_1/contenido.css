@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    transition: all 0.5s ease;
+    cursor: pointer;
+    animation: borderChange 3s infinite;
+}
+  
+
+.menu-nav{
+    background-color: rgb(28, 53, 165);
+    height: 50px;
+    margin: 10px;
+    animation: backgroundChange 1s infinite;
+    
+}
+
+.slider-container p{
+    margin: auto;
+}
+.text-mosaic{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100vw;
+}
+.text-content{
+    border-radius: 9px;
+    margin: 2px 0px;
+    background-color: #6d527c;
+    width: 50%;
+    color: #fff;
+    animation: scaleUp 3s ease-in-out infinite;
+}
+.mosaic{
+    
+    width: 50%;
+    display: flex;
+    flex-flow: row wrap;
+    
+    align-items: center;
+    gap: 10px;
+}
+
+.cards{
+    display: flex;
+    min-width: 100vw;
+}
+.card{
+    min-width: 100px;
+    height: 100px;
+    background-color: blue;
+    flex-grow: 1;
+    margin: 10px 10px;
+    border-radius: 9px;
+    color: #fff;
+    background-color: #1abc9c;
+  
+}
+.contact-photo{
+    display: flex;
+    min-width: 100vw;
+    height: 100px;
+    gap: 5px;
+
+}
+
+.footer{
+    
+    margin: 10px;
+    background-color: rgb(18, 168, 131);
+    height: 110px;
+    border-radius: 9px;
+    display: flex;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+    
+
+
+.p{
+    
+    background-color: rgb(99, 99, 46);
+    min-width: 100%;
+    height: 120px;
+    margin: 10px;
+    animation: fontSizeChange 2s infinite;
+    
+    animation: fontSizeChange 2s infinite;
+    
+}
+
+.mosaico{
+    margin: 10px;
+    height: 50px;
+    background-color: aqua;
+    width: 100%; 
+    gap: 10px;
+    
+    
+      
+   
+}
+
+@keyframes fontSizeChange {
+    0% { font-size: 16px; }
+    50% { font-size: 24px; }
+    100% { font-size: 16px; }
+}
+
+@keyframes borderChange {
+    0% { border-radius: 0; }
+    50% { border-radius: 50px; }
+    100% { border-radius: 0; }
+  }
+
+
+
+  @keyframes backgroundChange {
+    0% { background-color: aqua; }
+    50% { background-color: rgb(0, 255, 85); }
+    100% { background-color: blueviolet; }
+  }
+  @keyframes scaleUp {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.5); }
+    100% { transform: scale(1); }
+  }
